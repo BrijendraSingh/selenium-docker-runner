@@ -38,7 +38,7 @@ services:
       - chrome
       - firefox
     environment:
-      - BROWSER=firefox
+      - BROWSER=chrome
       - HUB_HOST=selenium-hub
     volumes:
       - ./output/test-results:/usr/share/seleniumDocker/test-output
